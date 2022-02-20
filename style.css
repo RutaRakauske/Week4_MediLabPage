@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-image: url("bg-banner.jpg");
+    background-size: cover;
+    height: 90%;
+}
+.headerColor {
+    display: flex;
+    flex-direction: column;
+    background-color: RGBA(13, 70, 83, 0.78);
+    height: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.topLogo {
+    width: 145px;
+    height: 50px;
+    margin: 15px;
+}
+.menuItems {
+    color: white;
+    text-transform: uppercase;
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 15px;
+    word-spacing: 15px;
+}
+form {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 100px;
+}
+.attentionNote {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: 12px;
+    background-color: rgba(12, 184, 182, 0.91);
+    border-radius: 8px;
+    color: white;
+}
+main {
+    display: flex;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+hr {
+    width: 30%;
+    margin-top: 15px;
+    border: #ffb737 solid;
+}
+.serviceDescription {
+    color: #999999;
+    font-size: 18px;
+    padding: 15px 0;
+}
+i {
+    color: #0cb8b6;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 30%;
+    margin: 50px 25px;
+}
