@@ -4,8 +4,10 @@ body {
 }
 header {
     background-image: url("bg-banner.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    background-attachment: fixed;
 }
 .headerColor {
     display: flex;
@@ -23,15 +25,19 @@ nav {
     margin: 15px;
 }
 .menuItems {
+    padding: 20px;
+    margin: 15px;
+    word-spacing: 15px;
+
+}
+.menuItems > a {
+    text-decoration: none;
     color: white;
     text-transform: uppercase;
     size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 15px;
-    word-spacing: 15px;
 }
-form {
+.welcomeText {
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -43,14 +49,18 @@ form {
     text-transform: uppercase;
     padding: 15px 0;
 }
-button {
-    border: none;
-    padding: 10px 20px;
+.linkButton {
+   text-decoration: none;
+   color: white;
+   background-color: rgba(12, 184, 182, 0.91);
+   border-radius: 8px;
+   border: none;
+   padding: 10px 20px;
+   font-size: 12px;
+   margin: 15px;
+}
+.linkButtonContainer {
     margin-top: 25px;
-    font-size: 12px;
-    background-color: rgba(12, 184, 182, 0.91);
-    border-radius: 8px;
-    color: white;
 }
 .services {
     display: flex;
